@@ -1,0 +1,6 @@
+framework module Pods_SweetDownloader {
+  umbrella header "Pods-SweetDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

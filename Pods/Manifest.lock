@@ -1,0 +1,12 @@
+PODS:
+  - TCBlobDownloadSwift (0.1.1)
+
+DEPENDENCIES:
+  - TCBlobDownloadSwift (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  TCBlobDownloadSwift: d4c8e1ee7b96fa9adcdee0f3b0a277f0bc44adc6
+
+PODFILE CHECKSUM: 610f2001c352fd60864f277fa6b090ed634bc8da
+
+COCOAPODS: 1.1.1

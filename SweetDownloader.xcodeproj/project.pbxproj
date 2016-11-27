@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FD74ABDE25AEA55D1167B3C /* Pods_SweetDownloaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD13762CFADCFB0A50C05DC /* Pods_SweetDownloaderTests.framework */; };
+		6FFB7580249943A2A647A5D3 /* Pods_SweetDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DE709CDAAEC93C2803517D /* Pods_SweetDownloader.framework */; };
+		9F0E40101DEA8A0900B50A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E400F1DEA8A0900B50A35 /* AppDelegate.swift */; };
+		9F0E40121DEA8A0900B50A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E40111DEA8A0900B50A35 /* ViewController.swift */; };
+		9F0E40151DEA8A0900B50A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E40131DEA8A0900B50A35 /* Main.storyboard */; };
+		9F0E40171DEA8A0900B50A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E40161DEA8A0900B50A35 /* Assets.xcassets */; };
+		9F0E401A1DEA8A0900B50A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E40181DEA8A0900B50A35 /* LaunchScreen.storyboard */; };
+		9F0E40251DEA8A0900B50A35 /* SweetDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E40241DEA8A0900B50A35 /* SweetDownloaderTests.swift */; };
+		9F0E40301DEA8A0900B50A35 /* SweetDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E402F1DEA8A0900B50A35 /* SweetDownloaderUITests.swift */; };
+		9F0E403E1DEA8A2B00B50A35 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E403D1DEA8A2B00B50A35 /* Podfile */; };
+		F05923A0A243D64F92031185 /* Pods_SweetDownloaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01799D1EAAD856D9623636D6 /* Pods_SweetDownloaderUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0E40211DEA8A0900B50A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0E40041DEA8A0800B50A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0E400B1DEA8A0900B50A35;
+			remoteInfo = SweetDownloader;
+		};
+		9F0E402C1DEA8A0900B50A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0E40041DEA8A0800B50A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0E400B1DEA8A0900B50A35;
+			remoteInfo = SweetDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01799D1EAAD856D9623636D6 /* Pods_SweetDownloaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetDownloaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DE709CDAAEC93C2803517D /* Pods_SweetDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1C8D40854E3E802812BBA2 /* Pods-SweetDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetDownloaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetDownloaderUITests/Pods-SweetDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B46B21D3455CB530BCC96A7 /* Pods-SweetDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetDownloaderTests/Pods-SweetDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F0E400C1DEA8A0900B50A35 /* SweetDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0E400F1DEA8A0900B50A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F0E40111DEA8A0900B50A35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F0E40141DEA8A0900B50A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0E40161DEA8A0900B50A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0E40191DEA8A0900B50A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F0E401B1DEA8A0900B50A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0E40201DEA8A0900B50A35 /* SweetDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0E40241DEA8A0900B50A35 /* SweetDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetDownloaderTests.swift; sourceTree = "<group>"; };
+		9F0E40261DEA8A0900B50A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0E402B1DEA8A0900B50A35 /* SweetDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0E402F1DEA8A0900B50A35 /* SweetDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetDownloaderUITests.swift; sourceTree = "<group>"; };
+		9F0E40311DEA8A0900B50A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0E403D1DEA8A2B00B50A35 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9FB9045F3CD07443B0E0AA14 /* Pods-SweetDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetDownloader/Pods-SweetDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD13762CFADCFB0A50C05DC /* Pods_SweetDownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetDownloaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC90815F4AD29CCF23021E /* Pods-SweetDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetDownloader/Pods-SweetDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		EB7712B6EC513F442F1FD64E /* Pods-SweetDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetDownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetDownloaderTests/Pods-SweetDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE8A903CA3669014FD04A69 /* Pods-SweetDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetDownloaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetDownloaderUITests/Pods-SweetDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0E40091DEA8A0900B50A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFB7580249943A2A647A5D3 /* Pods_SweetDownloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E401D1DEA8A0900B50A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD74ABDE25AEA55D1167B3C /* Pods_SweetDownloaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E40281DEA8A0900B50A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05923A0A243D64F92031185 /* Pods_SweetDownloaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0E40031DEA8A0800B50A35 = {
+			isa = PBXGroup;
+			children = (
+				9F0E403D1DEA8A2B00B50A35 /* Podfile */,
+				9F0E400E1DEA8A0900B50A35 /* SweetDownloader */,
+				9F0E40231DEA8A0900B50A35 /* SweetDownloaderTests */,
+				9F0E402E1DEA8A0900B50A35 /* SweetDownloaderUITests */,
+				9F0E400D1DEA8A0900B50A35 /* Products */,
+				BB2EB75AA094B12D294FE107 /* Pods */,
+				DB0C2A9545894FAE426EB614 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0E400D1DEA8A0900B50A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E400C1DEA8A0900B50A35 /* SweetDownloader.app */,
+				9F0E40201DEA8A0900B50A35 /* SweetDownloaderTests.xctest */,
+				9F0E402B1DEA8A0900B50A35 /* SweetDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0E400E1DEA8A0900B50A35 /* SweetDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E400F1DEA8A0900B50A35 /* AppDelegate.swift */,
+				9F0E40111DEA8A0900B50A35 /* ViewController.swift */,
+				9F0E40131DEA8A0900B50A35 /* Main.storyboard */,
+				9F0E40161DEA8A0900B50A35 /* Assets.xcassets */,
+				9F0E40181DEA8A0900B50A35 /* LaunchScreen.storyboard */,
+				9F0E401B1DEA8A0900B50A35 /* Info.plist */,
+			);
+			path = SweetDownloader;
+			sourceTree = "<group>";
+		};
+		9F0E40231DEA8A0900B50A35 /* SweetDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E40241DEA8A0900B50A35 /* SweetDownloaderTests.swift */,
+				9F0E40261DEA8A0900B50A35 /* Info.plist */,
+			);
+			path = SweetDownloaderTests;
+			sourceTree = "<group>";
+		};
+		9F0E402E1DEA8A0900B50A35 /* SweetDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E402F1DEA8A0900B50A35 /* SweetDownloaderUITests.swift */,
+				9F0E40311DEA8A0900B50A35 /* Info.plist */,
+			);
+			path = SweetDownloaderUITests;
+			sourceTree = "<group>";
+		};
+		BB2EB75AA094B12D294FE107 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9045F3CD07443B0E0AA14 /* Pods-SweetDownloader.debug.xcconfig */,
+				CCBC90815F4AD29CCF23021E /* Pods-SweetDownloader.release.xcconfig */,
+				EB7712B6EC513F442F1FD64E /* Pods-SweetDownloaderTests.debug.xcconfig */,
+				2B46B21D3455CB530BCC96A7 /* Pods-SweetDownloaderTests.release.xcconfig */,
+				2A1C8D40854E3E802812BBA2 /* Pods-SweetDownloaderUITests.debug.xcconfig */,
+				EBE8A903CA3669014FD04A69 /* Pods-SweetDownloaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB0C2A9545894FAE426EB614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22DE709CDAAEC93C2803517D /* Pods_SweetDownloader.framework */,
+				BAD13762CFADCFB0A50C05DC /* Pods_SweetDownloaderTests.framework */,
+				01799D1EAAD856D9623636D6 /* Pods_SweetDownloaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0E400B1DEA8A0900B50A35 /* SweetDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0E40341DEA8A0900B50A35 /* Build configuration list for PBXNativeTarget "SweetDownloader" */;
+			buildPhases = (
+				983F0A0BC0E854C151DFDBBF /* [CP] Check Pods Manifest.lock */,
+				9F0E40081DEA8A0900B50A35 /* Sources */,
+				9F0E40091DEA8A0900B50A35 /* Frameworks */,
+				9F0E400A1DEA8A0900B50A35 /* Resources */,
+				4D20FAED6627519E5C6C3DDF /* [CP] Embed Pods Frameworks */,
+				A27E5F7DF999097A12D39BF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetDownloader;
+			productName = SweetDownloader;
+			productReference = 9F0E400C1DEA8A0900B50A35 /* SweetDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F0E401F1DEA8A0900B50A35 /* SweetDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0E40371DEA8A0900B50A35 /* Build configuration list for PBXNativeTarget "SweetDownloaderTests" */;
+			buildPhases = (
+				174A025686C70DA6816BCD60 /* [CP] Check Pods Manifest.lock */,
+				9F0E401C1DEA8A0900B50A35 /* Sources */,
+				9F0E401D1DEA8A0900B50A35 /* Frameworks */,
+				9F0E401E1DEA8A0900B50A35 /* Resources */,
+				EC1C59B267A89FBD2E206A02 /* [CP] Embed Pods Frameworks */,
+				2B195AFE51D7A2DCC6078541 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0E40221DEA8A0900B50A35 /* PBXTargetDependency */,
+			);
+			name = SweetDownloaderTests;
+			productName = SweetDownloaderTests;
+			productReference = 9F0E40201DEA8A0900B50A35 /* SweetDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F0E402A1DEA8A0900B50A35 /* SweetDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0E403A1DEA8A0900B50A35 /* Build configuration list for PBXNativeTarget "SweetDownloaderUITests" */;
+			buildPhases = (
+				7E7D75595A2235DAA977757C /* [CP] Check Pods Manifest.lock */,
+				9F0E40271DEA8A0900B50A35 /* Sources */,
+				9F0E40281DEA8A0900B50A35 /* Frameworks */,
+				9F0E40291DEA8A0900B50A35 /* Resources */,
+				BD252C3320E3D1DE21848A8F /* [CP] Embed Pods Frameworks */,
+				E2B48123B2E953982A5833A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0E402D1DEA8A0900B50A35 /* PBXTargetDependency */,
+			);
+			name = SweetDownloaderUITests;
+			productName = SweetDownloaderUITests;
+			productReference = 9F0E402B1DEA8A0900B50A35 /* SweetDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0E40041DEA8A0800B50A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nitin Sharma";
+				TargetAttributes = {
+					9F0E400B1DEA8A0900B50A35 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9R9TQ8V583;
+						ProvisioningStyle = Automatic;
+					};
+					9F0E401F1DEA8A0900B50A35 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9R9TQ8V583;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F0E400B1DEA8A0900B50A35;
+					};
+					9F0E402A1DEA8A0900B50A35 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9R9TQ8V583;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F0E400B1DEA8A0900B50A35;
+					};
+				};
+			};
+			buildConfigurationList = 9F0E40071DEA8A0800B50A35 /* Build configuration list for PBXProject "SweetDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0E40031DEA8A0800B50A35;
+			productRefGroup = 9F0E400D1DEA8A0900B50A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0E400B1DEA8A0900B50A35 /* SweetDownloader */,
+				9F0E401F1DEA8A0900B50A35 /* SweetDownloaderTests */,
+				9F0E402A1DEA8A0900B50A35 /* SweetDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0E400A1DEA8A0900B50A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E401A1DEA8A0900B50A35 /* LaunchScreen.storyboard in Resources */,
+				9F0E40171DEA8A0900B50A35 /* Assets.xcassets in Resources */,
+				9F0E403E1DEA8A2B00B50A35 /* Podfile in Resources */,
+				9F0E40151DEA8A0900B50A35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E401E1DEA8A0900B50A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E40291DEA8A0900B50A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174A025686C70DA6816BCD60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B195AFE51D7A2DCC6078541 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetDownloaderTests/Pods-SweetDownloaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D20FAED6627519E5C6C3DDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetDownloader/Pods-SweetDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7D75595A2235DAA977757C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		983F0A0BC0E854C151DFDBBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A27E5F7DF999097A12D39BF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetDownloader/Pods-SweetDownloader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD252C3320E3D1DE21848A8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetDownloaderUITests/Pods-SweetDownloaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B48123B2E953982A5833A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetDownloaderUITests/Pods-SweetDownloaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1C59B267A89FBD2E206A02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SweetDownloaderTests/Pods-SweetDownloaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0E40081DEA8A0900B50A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E40121DEA8A0900B50A35 /* ViewController.swift in Sources */,
+				9F0E40101DEA8A0900B50A35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E401C1DEA8A0900B50A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E40251DEA8A0900B50A35 /* SweetDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0E40271DEA8A0900B50A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E40301DEA8A0900B50A35 /* SweetDownloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0E40221DEA8A0900B50A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0E400B1DEA8A0900B50A35 /* SweetDownloader */;
+			targetProxy = 9F0E40211DEA8A0900B50A35 /* PBXContainerItemProxy */;
+		};
+		9F0E402D1DEA8A0900B50A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0E400B1DEA8A0900B50A35 /* SweetDownloader */;
+			targetProxy = 9F0E402C1DEA8A0900B50A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F0E40131DEA8A0900B50A35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0E40141DEA8A0900B50A35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0E40181DEA8A0900B50A35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0E40191DEA8A0900B50A35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F0E40321DEA8A0900B50A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0E40331DEA8A0900B50A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0E40351DEA8A0900B50A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB9045F3CD07443B0E0AA14 /* Pods-SweetDownloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9R9TQ8V583;
+				INFOPLIST_FILE = SweetDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharmanitin.SweetDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F0E40361DEA8A0900B50A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBC90815F4AD29CCF23021E /* Pods-SweetDownloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9R9TQ8V583;
+				INFOPLIST_FILE = SweetDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharmanitin.SweetDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F0E40381DEA8A0900B50A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7712B6EC513F442F1FD64E /* Pods-SweetDownloaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9R9TQ8V583;
+				INFOPLIST_FILE = SweetDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharmanitin.SweetDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetDownloader.app/SweetDownloader";
+			};
+			name = Debug;
+		};
+		9F0E40391DEA8A0900B50A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B46B21D3455CB530BCC96A7 /* Pods-SweetDownloaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9R9TQ8V583;
+				INFOPLIST_FILE = SweetDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharmanitin.SweetDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetDownloader.app/SweetDownloader";
+			};
+			name = Release;
+		};
+		9F0E403B1DEA8A0900B50A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1C8D40854E3E802812BBA2 /* Pods-SweetDownloaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9R9TQ8V583;
+				INFOPLIST_FILE = SweetDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharmanitin.SweetDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SweetDownloader;
+			};
+			name = Debug;
+		};
+		9F0E403C1DEA8A0900B50A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE8A903CA3669014FD04A69 /* Pods-SweetDownloaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9R9TQ8V583;
+				INFOPLIST_FILE = SweetDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharmanitin.SweetDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SweetDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0E40071DEA8A0800B50A35 /* Build configuration list for PBXProject "SweetDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E40321DEA8A0900B50A35 /* Debug */,
+				9F0E40331DEA8A0900B50A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0E40341DEA8A0900B50A35 /* Build configuration list for PBXNativeTarget "SweetDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E40351DEA8A0900B50A35 /* Debug */,
+				9F0E40361DEA8A0900B50A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0E40371DEA8A0900B50A35 /* Build configuration list for PBXNativeTarget "SweetDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E40381DEA8A0900B50A35 /* Debug */,
+				9F0E40391DEA8A0900B50A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0E403A1DEA8A0900B50A35 /* Build configuration list for PBXNativeTarget "SweetDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E403B1DEA8A0900B50A35 /* Debug */,
+				9F0E403C1DEA8A0900B50A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F0E40041DEA8A0800B50A35 /* Project object */;
+}
